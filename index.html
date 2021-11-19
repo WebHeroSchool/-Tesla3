@@ -9,114 +9,114 @@
 	<link rel="stylesheet" href="adaptive.css">
 </head>
 <body>
-	<header class="header">
-		<img src="img/logo.svg" alt="logo" class="logo"/>
-		<nav class="menu">
-			<a class="menu__item menu__item_active" href="#">Model S</a>
-			<a class="menu__item" href="#">Model X</a>
-			<a class="menu__item" href="#">Model 3</a>
-			<a class="menu__item" href="#">Roadster</a>
-			<a class="menu__item" href="#">Energy</a>
-		</nav>
-		<nav class="side-menu">
-			<a class="side-menu__item" href="#">Магазин</a>
-			<a class="side-menu__item" href="#">Войти</a>
-			<div class="burger-menu"></div>
-		</nav>
-	</header>
-	<section class="main">
-		<h1 class="main__title">Model S</h1>
-		<p class="main__subtitle">Добро пожаловать в будущее!</p>
-		<picture class="main__background">
-			<img class="main__img" alt="Tesla" src="img/car.png">
-		</picture>
-		<div class="characteristics">
-			<div class="characteristic-speed">
-				<img class="characteristic-speed__img" alt="Speed" src="img/speed.svg"/>
-				<div class="haracteristic-speed__caption">
-					<div class="characteristic-speed__number">2,7<span class="characteristic-speed__text">сек</span></div>
+	<div class="wrapper">
+		<header class="header">
+			<img src="img/logo.svg" alt="logo" class="header__logo"/>
+			<nav class="header__menu">
+				<a class="menu__item menu__item_active" href="#">Model S</a>
+				<a class="menu__item" href="#">Model X</a>
+				<a class="menu__item" href="#">Model 3</a>
+				<a class="menu__item" href="#">Roadster</a>
+				<a class="menu__item" href="#">Energy</a>
+			</nav>
+			<nav class="header__side-menu">
+				<a class="side-menu__item" href="#">Магазин</a>
+				<a class="side-menu__item" href="#">Войти</a>
+			</nav>
+			<div class="header__burger-menu"></div>
+		</header>
+		<main class="main">
+			<section class="section-1">
+				<h1 class="section-1__title">Model S</h1>
+				<p class="section-1__subtitle">Добро пожаловать в будущее!</p>
+				<picture class="section-1__background">
+					<img class="section-1__img" alt="Tesla" src="img/car.png">
+				</picture>
+				<div class="section-1__characteristics">
+					<div class="characteristic-speed">
+						<img class="characteristic-speed__img" alt="Speed" src="img/speed.svg"/>
+						<div class="haracteristic-speed__caption">
+							<div class="characteristic-speed__number">2,7<span class="characteristic-speed__text">сек</span></div>
+						</div>
+						<div class="characteristic-speed__description">0-100 км/час</div>
+					</div>
+					<div class="characteristic-range">
+						<img class="characteristic-range__img" alt="Range" src="img/road icon.svg"/>
+						<div class="characteristic-range__caption">
+							<div class="characteristic-range__number">632<span class="characteristic-range__text">км</span></div>
+						</div>
+						<div class="characteristic-range__description">запас хода</div>
+					</div>
+					<div class="section-1__buttons">
+						<button class="section-1__button-test">
+							<img class="button-test__img" alt="Test-drive" src="img/steering-wheel.svg"/>
+							<span class="button-test__name">ТЕСТ ДРАЙВ</span>
+						</button>
+						<button class="section-1__button-order">ЗАКАЗАТЬ</button>
+					</div>
 				</div>
-				<div class="characteristic-speed__description">0-100 км/час</div>
-			</div>
-			<div class="characteristic-range">
-				<img class="characteristic-range__img" alt="Range" src="img/road icon.svg"/>
-				<div class="characteristic-range__caption">
-					<div class="characteristic-range__number">632<span class="characteristic-range__text">км</span></div>
-				</div>
-				<div class="characteristic-range__description">запас хода</div>
-			</div>
-			<div class="buttons">
-				<button class="button-test">
-					<img class="button-test__img" alt="test-drive" src="img/steering-wheel.svg"/>
-					<span class="button-test__name">ТЕСТ ДРАЙВ</span>
-				</button>
-				<button class="button-order">ЗАКАЗАТЬ</button>
-			</div>
-		</div>
-	</section>
-	<div class="arrow"></div>
-	<main class="section">
-		<h2 class="section__title">Model S</h2>
-		<div class="section__img"></div>
-		<aside class="side-menu">
-			<article class="side-menu__article">
-				<h3 class="side-menu__title">Будущее вождения</h3>
-				<p>Модель S обладает лучшей в своем классе вместимостью: в машине поместится до пяти взрослых и двух детей. Оснащена современным 17-дюймовым сенсорным экраном. Усовершенствованная шумовая инженерия создает динамику звука, сравнимую со студией звукозаписи, а стеклянная крыша обеспечивает просторный интерьер для каждого пассажира.</p>
-			</article>
-			<ul class="side-menu__characteristic-measure">
-				<li class="characteristic-measure__details">
-					<img class="display__icon" src="img/screen.svg" alt="Иконка дисплея">
-					<span class="characteristic-measure__title">17</span>
-					дюймов
-					<div class="characteristic-measure__subtitle">Большой дисплей</div>
-				</li>
-				<li class="characteristic-measure__details">
-					<img class="wifi__icon" src="img/wifi.svg" alt="Иконка wf">
-					<li class="characteristic-measure__title">
-						Беспроводное обновление ПО
-						<div class="characteristic-measure__subtitle">Повышенная функциональность</div>
-					</li>
-				</li>
-				<li class="characteristic-measure__details">
-					<img class="bag__icon" src="img/bag.svg" alt="Иконка бака">
-					<span class="characteristic-measure__title">894</span>
-					литра
-					<div class="characteristic-measure__subtitle"
-					>Объем грузового пространства</div>
-				</li>
-			</ul>
-			<div class="buttons">
-				<button class="button-info">
-					<img class="information-btn" src="img/information_btn.svg" alt="Иконка I">УЗНАТЬ БОЛЬШЕ
-				</button>
-				<button class="button-order">ЗАКАЗАТЬ</button>
-			</div>
-		</aside>
-	</main>
-	<section class="section-2">
-		<img class="section-2__img" src="img/car_frame.png" alt="Схема машины">
-		<aside class="side-menu side-menu__left">
-			<article class="side-menu__article">
-				<h3 class="side-menu__title">Самый безопасный автомобиль в мире</h3>
-				<p>Модель S достигла наивысшей оценки безопасности любого автомобиля, когда-либо испытанного, и установила рекорд по наименьшей вероятности травмы пассажиров - от несчастных случаев на переднем, боковом, заднем сидении и в ДТП с переворотом авто.</p>
-			</article>
-			<h2 class="left-menu__title">Оценка защиты</h2>
-			<ul class="left-menu__details">
-				<li class="left-menu__item">СПЕРЕДИ</li>
-				<li class="left-menu__item">СБОКУ</li>
-				<li class="left-menu__item">СБОКУ <span class="subtitle">(стойка)</span></li>
-				<li class="left-menu__item">ВОДИТЕЛЬ</li>
-				<li class="left-menu__item">ПАССАЖИР</li>
-			</ul>
-			<div class="left-menu__safe-rating">
-				<div class="safe-rating__title">5 звезд <div class="safe-rating__subtitle">безопасности</div></div>
-			</div>
-			<div class="buttons">
-				<button class="button-info">
-					<img class="information__btn" src="img/information_btn.svg" alt="Иконка I">УЗНАТЬ БОЛЬШЕ
-				</button>
-				<button class="button-order">ЗАКАЗАТЬ</button>
-			</div>
-		</aside>
-	</section>
+			</section>
+			<div class="arrow"></div>
+			<section class="section-2">
+				<h2 class="section-2__title">Model S</h2>
+				<div class="section-2__img"></div>
+				<aside class="section-2__side-menu">
+					<article class="side-menu__article">
+						<h3 class="side-menu__title">Будущее вождения</h3>
+						<p>Модель S обладает лучшей в своем классе вместимостью: в машине поместится до пяти взрослых и двух детей. Оснащена современным 17-дюймовым сенсорным экраном. Усовершенствованная шумовая инженерия создает динамику звука, сравнимую со студией звукозаписи, а стеклянная крыша обеспечивает просторный интерьер для каждого пассажира.</p>
+					</article>
+					<ul class="side-menu__characteristic-measure">
+						<li class="characteristic-measure__details">
+							<img class="display__icon" src="img/screen.svg" alt="Дисплей">
+							<span class="characteristic-measure__title">17 дюймов</span>
+							<div class="characteristic-measure__subtitle">Большой дисплей</div>
+						</li>
+						<li class="characteristic-measure__details">
+							<img class="wifi__icon" src="img/wifi.svg" alt="WF">
+							<span class="characteristic-measure__title">Беспроводное обновление ПО</span>
+							<div class="characteristic-measure__subtitle">Повышенная функциональность</div>
+						</li>
+						</li>
+						<li class="characteristic-measure__details">
+							<img class="bag__icon" src="img/bag.svg" alt="Бак">
+							<span class="characteristic-measure__title">894 литра</span>
+							<div class="characteristic-measure__subtitle">Объем грузового пространства</div>
+						</li>
+					</ul>
+					<div class="section-2__buttons">
+						<button class="section-2__button-info">
+							<img class="information-btn" src="img/information_btn.svg" alt="Инфо">УЗНАТЬ БОЛЬШЕ
+						</button>
+						<button class="section-2__button-order">ЗАКАЗАТЬ</button>
+					</div>
+				</aside>
+			</section>
+			<section class="section-3">
+				<img class="section-3__img" src="img/car_frame.png" alt="Машина">
+				<aside class="section-3__side-menu-2">
+					<article class="side-menu-2__article">
+						<h3 class="side-menu-2__title">Самый безопасный автомобиль в мире</h3>
+						<p>Модель S достигла наивысшей оценки безопасности любого автомобиля, когда-либо испытанного, и установила рекорд по наименьшей вероятности травмы пассажиров - от несчастных случаев на переднем, боковом, заднем сидении и в ДТП с переворотом авто.</p>
+					</article>
+					<h2 class="side-menu-2__quality-control">Оценка защиты</h2>
+					<ul class="side-menu-2__details">
+						<li class="side-menu-2__item">СПЕРЕДИ</li>
+						<li class="side-menu-2__item">СБОКУ</li>
+						<li class="side-menu-2__item">СБОКУ <span class="subtitle">(стойка)</span></li>
+						<li class="side-menu-2__item">ВОДИТЕЛЬ</li>
+						<li class="side-menu-2__item">ПАССАЖИР</li>
+					</ul>
+					<div class="side-menu-2__safe-rating">
+						<div class="safe-rating__title">5 звезд <div class="safe-rating__subtitle">безопасности</div></div>
+					</div>
+					<div class="section-3__buttons">
+						<button class="section-3__button-info">
+							<img class="information-btn" src="img/information_btn.svg" alt="Инфо">УЗНАТЬ БОЛЬШЕ
+						</button>
+						<button class="section-3__button-order">ЗАКАЗАТЬ</button>
+					</div>
+				</aside>
+			</section>
+		</main>
+	</div>
 </body>
