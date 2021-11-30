@@ -224,7 +224,7 @@ display: inline-block;
   margin: auto;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1030px) {
   .header__menu,
   .side-menu__item {
     display: none;
@@ -494,7 +494,7 @@ display: inline-block;
   }
 }
 
-  @media only screen and (min-width: 1025px) and (max-width: 1330px) {
+  @media only screen and (min-width: 1031px) and (max-width: 1330px) {
 .characteristic-range {
     margin-right: 3%;
   }
