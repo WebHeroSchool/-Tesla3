@@ -24,7 +24,7 @@ body {
   background: no-repeat url(img/logo.svg) 0 0;
   width: 166px;
 	height: 51px;
-  margin-right: 8.2%;
+  margin-right: 8.1%;
 }
 
 .header__burger-menu::before,
@@ -48,29 +48,29 @@ body {
 }
 
 .menu__item {
-  margin-right: 4%;
+  margin-right: 3.3%;
   text-decoration: none;
   color: #000;
 }
 
 .menu__item:nth-child(4n) {
-  margin: 0 7% 0 2%;
+  margin: 0 7.1% 0 3.16%;
 }
 
 .menu__item_active {
-  margin-right: 9.95%;
-  padding-bottom: 2.5%;
+  margin-right: 10.2%;
+  padding-bottom: 2.3%;
   color: #E51937;
   background: no-repeat url(img/underline.svg) 0% 84%;
   background-size: 100%;
 }
 
 .header__side-menu {
- width: 16.6%;
+ width: 16.3%;
 }
 
 .side-menu__item {
-  margin-right: 12%;
+  margin-right: 11%;
   text-decoration: none;
   color: #000;
 }
@@ -119,19 +119,21 @@ body {
 
 .characteristic-speed {
     width: 183px;
-    margin-right: 6%;
+    margin-right: 6.5%;
     letter-spacing: 2px
 }
 
 .characteristic-speed__img {
     float: left;
-    margin: 9px 7.5px 5px 0px;
+    margin: 13px 7.8px 5px 0px;
 }
 
 .characteristic-speed__number,
 .characteristic-range__number {
     font-weight: 600;
     font-size: 35px;
+    position: relative;
+    letter-spacing: 1px;
 }
 
 .characteristic-range__number {
@@ -140,15 +142,30 @@ body {
 
 .characteristic-speed__text,
 .characteristic-range__text {
+    position: absolute;
     font-weight: 600;
     font-size: 20px;
     margin-left: 3px;
+    margin: 16px 0 0 5px;
+    letter-spacing: 0;
+}
+
+.characteristic-speed__number,
+.characteristic-speed-text {
+display: inline-block;
+}
+
+.characteristic-range__number,
+.characteristic-range-text {
+display: inline-block;
 }
 
 .characteristic-speed__description,
 .characteristic-range__description {
   font-size: 12px;
   line-height: 15px;
+  letter-spacing: 0;
+  margin-top: -1%;
 }
 
 .characteristic-range {
@@ -158,7 +175,7 @@ body {
 
 .characteristic-range__img {
     float: left;
-    margin: 10px 4px 0 0;
+    margin: 10px 7px 0 0;
 }
 
 .section-1__buttons {
@@ -169,21 +186,21 @@ body {
 }
 
 .section-1__button-test {
-  width: 54%;
-  margin-bottom: 0.75%;
+  width: 54.9%;
+  margin-bottom: 0.3278%;
 }
 
 .button-test__img {
   background: url(img/steering-wheel.svg) no-repeat;
   background-position: 0 21px;
-	width: 34px;
+	width: 31px;
 	height: 63px;
 	cursor: pointer;
 }
 
 .section-1__button-order {
   padding: 8px 0;
-  width: 215px;
+  width: 209px;
   height: 40px;
   border: 2px solid #E51937;
   background: none;
@@ -250,7 +267,7 @@ body {
   }
 
   .section-1__title {
-    margin-bottom: -1.2%;
+    margin-bottom: -1.4%;
   }
 
   .section-1__subtitle {
@@ -259,14 +276,14 @@ body {
 
   .section-1 {
   	background: url(img/teslaIpad.svg) no-repeat;
-  	background-position: 50% 18%;
+  	background-position: 50% 17.5%;
 		background-size: contain;
 	}
 
   .section-1__img {
   	background: url(img/carIpad.svg) no-repeat;
   	background-position: 50% 5%;
-    height: 365px;
+    height: 368px;
   }
 
   .characteristic-speed {
@@ -282,40 +299,37 @@ body {
   .characteristic-speed__number,
   .characteristic-range__number {
     font-size: 50px;
+    position: relative;
   }
 
   .characteristic-range__number {
     margin-top: 0;
   }
 
+  .characteristic-speed__text,
+  .characteristic-range__text {
+    margin: 22.5px 0 0 9px;
+  }
+
   .characteristic-range__img {
-    margin: 13px 11px 0 6px;
+    margin: 13px 9px 0 6px;
     width: 28%;
   }
 
-  .characteristic-speed__text,
-  .characteristic-range__text {
-      letter-spacing: normal;
-  }
-
-  .characteristic-speed__caption,
-  .characteristic-range__caption {
-    height: 56px;
-  }
   .characteristic-speed__img {
       width: 35%;
       margin: 16px 15px 5px 3px;
   }
 
   .section-1__buttons {
-    width: 75.93%;
-    margin-left: 7.7%;
+    width: 75.4%;
+    margin-left: 7.8%;
     margin-bottom: 7%;
   }
 
   .section-1__button-order {
     padding: 8px 0;
-    width: 304px;
+    width: 312px;
     height: 56px;
     background: #E51937;
     color: #fff;
@@ -323,7 +337,7 @@ body {
   }
 
   .section-1__button-test {
-    margin-top: 2%;
+    margin-bottom: 0.25%;
   }
 
   .button-test__name {
@@ -335,7 +349,7 @@ body {
   .button-test__img {
     background: url(img/red-steering-wheel.svg) no-repeat;
     background-position: center;
-    width: 40px;
+    width: 44px;
     margin-right: 2.5%;
   }
 }
@@ -344,7 +358,7 @@ body {
 
   .header {
     width: 96.7%;
-    padding: 1.2% 0 11.65% 0.6%;
+    padding: 1.2% 0 11.45% 0.6%;
   }
 
   .header__logo {
@@ -373,24 +387,24 @@ body {
 
   .section-1__title {
     font: 600 50px/61px "Montserrat", arial, helvetica, sans-serif;
-    margin-bottom: -0.7%;
+    margin-bottom: -0.69%;
   }
 
   .section-1__subtitle {
     font: 500 10px/12px "Montserrat", arial, helvetica, sans-serif;
-    margin-bottom: 7.2%;
+    margin-bottom: 6.5%;
   }
 
   .section-1 {
     background: url(img/teslaMobile.svg) no-repeat;
-    background-position: 50% 24.2%;
+    background-position: 50% 24.7%;
     background-size: contain;
   }
 
   .section-1__img {
     background: url(img/carMobile.svg) no-repeat;
     background-position: 50% 51%;
-    height: 215px;
+    height: 216.5px;
   }
 
   .characteristic-speed {
@@ -400,33 +414,30 @@ body {
 
   .characteristic-range {
   width: 50%;
-  margin-bottom: 7.6%;
+  margin-bottom: 7.8%;
   margin-right: 0;
   }
 
   .characteristic-speed__number,
   .characteristic-range__number {
   font-size: 27px;
-  letter-spacing: 1px;
+  letter-spacing: 0;
   }
 
   .characteristic-range__number {
   margin-top: 0;
+  le
   }
 
   .characteristic-range__img {
-  margin: 3px 10px 0 0;
+  margin: 3px 9px 0 0;
   width: 18%;
   }
 
-  .characteristic-speed__caption,
-  .characteristic-range__caption {
-  height: 33px;
-  }
-
   .characteristic-speed__img {
-    width: 26.8%;
-    margin: 7px 11px 5px 3px;
+    width: 27%;
+    margin: 8px 9.5px 5px 4px;
+    letter-spacing: 0;
   }
 
   .section-1__characteristics {
@@ -437,6 +448,7 @@ body {
 
   .characteristic-speed__text,
   .characteristic-range__text {
+      margin: 11px 0 0 8px;
       font-weight: normal;
       font-size: 15px;
   }
@@ -446,6 +458,7 @@ body {
     letter-spacing: normal;
     font-size: 10px;
     line-height: 12px;
+    margin-top: 0.5px;
   }
 
   .section-1__buttons {
@@ -456,15 +469,15 @@ body {
   }
 
   .section-1__button-order {
-    padding-bottom: 15px;
-    width: 159.5px;
+    padding-bottom: 10px;
+    width: 159.2px;
     height: 39.5px;
     font-size: 13px;
   }
 
   .section-1__button-test {
-    width: 34.7%;
-    margin-bottom: 2.874%;
+    width: 34.5%;
+    margin-bottom: 0.4%;
   }
 
   .button-test__name {
@@ -547,11 +560,6 @@ body {
   font-size: 35px;
   letter-spacing: 1px;
   margin-top: 5%;
-  }
-
-  .characteristic-speed__caption,
-  .characteristic-range__caption {
-  height: 38px;
   }
 
   .characteristic-range {
