@@ -11,7 +11,7 @@
 <body>
 	<div class="wrapper">
 		<header class="header">
-			<img src="img/logo.svg" alt="logo" class="header__logo"/>
+			<div class="header__logo"></div>
 			<nav class="header__menu">
 				<a class="menu__item menu__item_active" href="#">Model S</a>
 				<a class="menu__item" href="#">Model X</a>
@@ -22,36 +22,32 @@
 			<nav class="header__side-menu">
 				<a class="side-menu__item" href="#">Магазин</a>
 				<a class="side-menu__item" href="#">Войти</a>
+				<div class="header__burger-menu"></div>
 			</nav>
-			<div class="header__burger-menu"></div>
 		</header>
 		<main class="main">
 			<section class="section-1">
 				<h1 class="section-1__title">Model S</h1>
 				<p class="section-1__subtitle">Добро пожаловать в будущее!</p>
-				<picture class="section-1__background">
-					<img class="section-1__img" alt="Tesla" src="img/car.png">
-				</picture>
+				<div class="section-1__img"></div>
 				<div class="section-1__characteristics">
 					<div class="characteristic-speed">
 						<img class="characteristic-speed__img" alt="Speed" src="img/speed.svg"/>
-						<div class="haracteristic-speed__caption">
-							<div class="characteristic-speed__number">2,7<span class="characteristic-speed__text">сек</span></div>
-						</div>
+						<div class="characteristic-speed__number">2,7</div>
+						<span class="characteristic-speed__text">сек</span>
 						<div class="characteristic-speed__description">0-100 км/час</div>
 					</div>
 					<div class="characteristic-range">
 						<img class="characteristic-range__img" alt="Range" src="img/road.svg"/>
-						<div class="characteristic-range__caption">
-							<div class="characteristic-range__number">632<span class="characteristic-range__text">км</span></div>
-						</div>
+						<div class="characteristic-range__number">632</div>
+						<span class="characteristic-range__text">км</span>
 						<div class="characteristic-range__description">запас хода</div>
 					</div>
 					<div class="section-1__buttons">
-						<button class="section-1__button-test">
-							<img class="button-test__img" alt="Test-drive" src="img/steering-wheel.svg"/>
+						<div class="button-test__img"></div>
+						<div class="section-1__button-test">
 							<span class="button-test__name">ТЕСТ ДРАЙВ</span>
-						</button>
+						</div>
 						<button class="section-1__button-order">ЗАКАЗАТЬ</button>
 					</div>
 				</div>
